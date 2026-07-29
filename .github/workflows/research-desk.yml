@@ -3,10 +3,8 @@ name: AI Research Desk
 on:
   workflow_dispatch:
   schedule:
-    # KST 07:00, 17:00, 22:00
-    - cron: "0 22 * * *"
-    - cron: "0 8 * * *"
-    - cron: "0 13 * * *"
+    # KST 08:00
+    - cron: "0 23 * * *"
 
 jobs:
   send-report:
